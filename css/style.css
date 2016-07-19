@@ -1,0 +1,254 @@
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #666666;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    position: absolute;
+    text-align: center;
+    background-color: green;
+    width: 1000px;
+    margin: auto;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+button {
+    background-color: #155da5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin: 20px 0 0 0;
+}
+.atm {
+    margin: auto;
+    margin-top: 30px;
+    height: 700px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.insert {
+    margin: auto;
+}
+.ready {
+    margin: auto;
+}
+.top {
+    font-size: 30px;
+    background-color: #155da5;
+    width: 1000px;
+    height: 75px;
+    color: #ffffff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.top p {
+    float: right;
+    padding: 0 10px 0 0;
+}
+.slide {
+    margin: auto;
+}
+.slide p {
+    font-size: 25px;
+    position: absolute;
+}
+.footer {
+    position: absolute;
+    margin-top: 610px;
+    background-color: #155da5;
+    text-align: center;
+    color: #ffffff;
+    height: 30px;
+    width: 1000px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.pin {
+    position: absolute;
+    font-size: 40px;
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+.key {
+    position: absolute;
+    opacity: 0.5;
+    width: 1000px;
+}
+.pin p {
+    font-size: 25px;
+    position: absolute;
+    padding: 0 10px 0 0;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 390px;
+}
+.logo {
+    position: absolute;
+    margin-left: 200px;
+    margin-right: auto;
+    opacity: 0.5;
+}
+.button-container {
+    position: absolute;
+    width: 500px;
+    overflow-y: auto;
+    margin-left: 270px;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.button-container> a {
+    width: 200px;
+    height: 75px;
+    float: left;
+    background: #155da5;
+    margin: 15px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 12px;
+}
+#numericInput {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: auto;
+}
+#numBox {
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    cursor: text;
+    overflow: hidden;
+}
+#keypad {
+    width: 320px;
+    height: 300px;
+    border-radius: 15px;
+}
+.num {
+    background-color: #155da5;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.num:hover {
+    background-color: LightBlue;
+}
+.num:active {
+    background-color: white;
+}
+.btn {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 33.3%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.recovery {
+    width: 1000px;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 60px
+}
+#keypad {
+    margin: auto;
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#pins {
+    width: 333px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid #222222;
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+    margin-right: auto;
+    margin-left: 333px;
+    margin-top: 60px;
+}
+#logo {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+#card {
+    position: absolute;
+    margin-left: 180px;
+    margin-right: auto;
+    opacity: 0.5;
+    float: right;
+    /*animation: blink .5s step-start 0s infinite;*/
+    /*-webkit-animation: blink 2s step-start 0s infinite;*/
+}
+#insert {
+    font-size: 30px;
+    position: absolute;
+    margin: 200px;
+}
+#one {
+    text-align: center;
+    width: 1000px;
+    font-size: 25px;
+    margin-top: 60px;
+}
+#ok {
+    background-color: green;
+    text-decoration: none;
+}
+#ok:hover {
+    background-color: white;
+    text-decoration: none;
+}
+#can {
+    background-color: red;
+}
+#can:hover {
+    background-color: white;
+}
+#withdraw {
+    position: absolute;
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 300px;
+}
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
